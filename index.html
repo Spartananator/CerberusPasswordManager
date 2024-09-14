@@ -9,26 +9,27 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
+            margin: 35vh;
             font-family: Arial, sans-serif;
         }
         button {
             padding: 10px 20px;
             font-size: 16px;
             cursor: pointer;
+            
         }
         .break {
-          flex-basis: 10vw;
+          flex-basis: 110vw;
           height: 0;
         }
     </style>
 </head>
 <body>
-    <h1>Cerberus Password Manager</h1>
-    <div class="break"></div>
-    <p><button onclick="startDownload()">Download</button></p>
-
+    <div>
+        <h1>Cerberus Password Manager</h1>
+        <div class="break"></div>
+        <p><button onclick="startDownload()">Download</button></p>
+    </div>
     <script>
         function startDownload() {
             // Create a link element
